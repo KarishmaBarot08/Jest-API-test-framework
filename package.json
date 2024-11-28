@@ -1,0 +1,32 @@
+{
+  "name": "sidearm-api-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/sidearmsports/sidearm-api-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/sidearmsports/sidearm-api-tests/issues"
+  },
+  "homepage": "https://bitbucket.org/sidearmsports/sidearm-api-tests#readme",
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "jest": "^29.7.0",
+    "jest-json-schema": "^6.1.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 30000
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
